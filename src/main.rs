@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 #[derive(Debug)]
 
 enum UseState {
@@ -10,7 +12,6 @@ enum UseState {
     // North Dakota
     Ohio,
     // South Carolina,
-    // South Dakota,
     Texas,
 }
 
@@ -57,7 +58,7 @@ fn main() {
     fn move_player(_num_spaces: u8) {}
 
     value_in_cents(Coin::Quarter(UseState::Texas));
-    value_in_cents(Coin::Dime);
-    value_in_cents(Coin::Nickel);
-    value_in_cents(Coin::Penny);
+    // value_in_cents(Coin::Dime);
+    // value_in_cents(Coin::Nickel);
+    // value_in_cents(Coin::Penny);
 }
